@@ -76,9 +76,12 @@ function loadMap() {
       foursquareDefault = false;
     }
     addLayer('Schools', 'foursquare', 13, {query: 'school'}, foursquareDefault); 
+    addLayer('Libraries', 'foursquare', 13, {query: 'library'}, foursquareDefault); 
+    addLayer('Post Offices', 'foursquare', 13, {query: 'post office'}, foursquareDefault); 
     addLayer('Parks', 'foursquare', 14, {query: 'park'});
     addLayer('Restaurants', 'foursquare', 15, {query: 'restaurant'});
     addLayer('Entertainment', 'foursquare', 14, {query: 'entertainment'});
+    addLayer('Flu Shots', 'foursquare', 13, {query: 'flu'}, foursquareDefault);
     addLayer('Events', 'drupal', 14, {url: settings.helm_civic_map.drupal_events});
   //}
   // @todo: http://www.opencyclemap.org/
