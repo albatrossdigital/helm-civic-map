@@ -89,7 +89,7 @@ function loadMap() {
     addLayer('Restaurants', 'foursquare', 15, {query: 'restaurant'});
     addLayer('Entertainment', 'foursquare', 14, {query: 'entertainment'});
     //addLayer('Flu Shots', 'foursquare', 13, {query: 'flu'}, foursquareDefault);
-    addLayer('Events', 'drupal', 14, {url: settings.helm_civic_map.drupal_events});
+    //addLayer('Events', 'drupal', 14, {url: settings.helm_civic_map.drupal_events});
   //}
   // @todo: http://www.opencyclemap.org/
   // @todo: hiking map
