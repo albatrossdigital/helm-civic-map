@@ -4,6 +4,8 @@
     attach: function(context, settings) {
 
 if ($('#helm-map').length) {
+  loadMap();
+  /*
   if (!$('#abovetop').length) {
     loadMap();
   }
@@ -21,6 +23,8 @@ if ($('#helm-map').length) {
       }
     });
   }
+  */
+  
 
 }
 
