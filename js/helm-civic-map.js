@@ -80,6 +80,9 @@ function loadMap() {
       foursquareDefault = false;
     }
     addLayer('Schools', 'foursquare', 13, {query: 'school'}, foursquareDefault); 
+    addLayer('Police', 'foursquare', 12, {query: 'police station'});
+    addLayer('Fire', 'foursquare', 12, {query: 'fire station'}); 
+    addLayer('Municipal', 'foursquare', 12, {query: 'city hall'}); 
     addLayer('Libraries', 'foursquare', 13, {query: 'library'}); 
     addLayer('Post Offices', 'foursquare', 13, {query: 'post office'}); 
     addLayer('Parks', 'foursquare', 14, {query: 'park'});
