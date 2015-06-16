@@ -79,10 +79,10 @@ function loadMap() {
       addLayer('Public Transit', 'mbtiles', 14, {url: settings.helm_civic_map.transportation, 'attribution': '<a href="ftp://ftp.ci.corvallis.or.us/pw/Transportation/GoogleTransitFeed/">City of Corvallis GTFS</a>'}, true);
       foursquareDefault = false;
     }
-    addLayer('Schools', 'foursquare', 13, {query: 'school'}, foursquareDefault); 
+    addLayer('Government', 'foursquare', 13, {query: 'government'}, foursquareDefault); 
+    addLayer('Schools', 'foursquare', 13, {query: 'school'}); 
     addLayer('Police', 'foursquare', 12, {query: 'police station'});
     addLayer('Fire', 'foursquare', 12, {query: 'fire station'}); 
-    addLayer('Municipal', 'foursquare', 12, {query: 'city hall'}); 
     addLayer('Libraries', 'foursquare', 13, {query: 'library'}); 
     addLayer('Post Offices', 'foursquare', 13, {query: 'post office'}); 
     addLayer('Parks', 'foursquare', 14, {query: 'park'});
